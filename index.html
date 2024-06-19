@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Manejo de Menu</title>
+</head>
+<body>
+    <header class="header-home"> <!-- 1er flex-->
+        <h1 class="h1-titulo-menu">Encope</h1>
+
+        <button class="navbar-toggler collapsed" type="button" id="navbarToggler">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <nav class="nav-principal">
+            <ul class="ul-menu-principal">  <!-- 2do flex-->
+                <li class="li-menu-principal" class="li-menu-principal">Home</li>
+                <li class="li-menu-principal">¿QuienesSomos?</li>
+                <li class="li-menu-principal">Productos</li>
+                <li class="li-menu-principal">Licitaciones</li>
+                <li class="li-menu-principal">Contacto</li>
+                <li class="li-menu-principal">Noticias</li>
+                <li class="li-menu-principal">
+                    <form action="/buscar" method="post" class="form-buscar-licitacion">
+                        <input type="text" id="input-busqueda"  name="input-busqueda" placeholder="Buscar Licitacion" class="">
+                        <input type="submit" value="Buscar" class="btn-submit-busqueda">
+                    </form>
+                </li>
+                <li class="li-menu-principal">
+                    Juan
+                    <ul class="ul-menu-principal ul-submenu">
+                        <li class="li-menu-principal li-submenu">Ir al Perfil</li>
+                        <li class="li-menu-principal li-submenu">Cambio de Rol</li>
+                        <li class="li-menu-principal li-submenu">Uso Interno</li>
+                        <li class="li-menu-principal li-submenu">Sistema de Gestion Web</li>
+                        <li class="li-menu-principal li-submenu">Ir al Inicio</li>
+                        <li class="li-menu-principal li-submenu">Cerrar Sesion</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+    </main>
+</body>
+</html>
